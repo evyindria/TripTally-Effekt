@@ -1,6 +1,6 @@
 {
   ## TODO: Change to your project's description:
-  description = "Nix template for Effekt projects";
+  description = "TripTally helps groups of travelers easily track shared vacation expenses, view individual net balances, and automatically compute a clear, minimal set of cash transfers to settle all debts at the end of the trip.";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -22,7 +22,7 @@
 
       ## Project configuration
       # TODO: Change to your project's details:
-      pname = "effekt-template";         # package name
+      pname = "TripTally-Effekt";         # package name
       version = "0.1.0";                 # package version
       mainFile = "src/main.effekt";      # relative path to entrypoint (as a string)
       testFiles = [ "src/test.effekt" ]; # relative paths to tests (as a string)
